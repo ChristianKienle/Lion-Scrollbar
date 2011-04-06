@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5D137A134C5ACC00D33C2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB5D1378134C5ACC00D33C2D /* InfoPlist.strings */; };
+		AB5D137D134C5ACC00D33C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D137C134C5ACC00D33C2D /* main.m */; };
+		AB5D1380134C5ACC00D33C2D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB5D137E134C5ACC00D33C2D /* Credits.rtf */; };
+		AB5D1383134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D1382134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.m */; };
+		AB5D1386134C5ACC00D33C2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5D1384134C5ACC00D33C2D /* MainMenu.xib */; };
+		AB5D1390134C5B0500D33C2D /* CMKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D138D134C5B0500D33C2D /* CMKScrollView.m */; };
+		AB5D1391134C5B0500D33C2D /* CMKScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D138E134C5B0500D33C2D /* CMKScroller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB5D136B134C5ACC00D33C2D /* Lion Scrollbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Scrollbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D1372134C5ACC00D33C2D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB5D1373134C5ACC00D33C2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB5D1374134C5ACC00D33C2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB5D1377134C5ACC00D33C2D /* Lion Scrollbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lion Scrollbar-Info.plist"; sourceTree = "<group>"; };
+		AB5D1379134C5ACC00D33C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB5D137B134C5ACC00D33C2D /* Lion Scrollbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lion Scrollbar-Prefix.pch"; sourceTree = "<group>"; };
+		AB5D137C134C5ACC00D33C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5D137F134C5ACC00D33C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AB5D1381134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lion_ScrollbarAppDelegate.h; sourceTree = "<group>"; };
+		AB5D1382134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lion_ScrollbarAppDelegate.m; sourceTree = "<group>"; };
+		AB5D1385134C5ACC00D33C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB5D138C134C5B0500D33C2D /* CMKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKScrollView.h; sourceTree = "<group>"; };
+		AB5D138D134C5B0500D33C2D /* CMKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKScrollView.m; sourceTree = "<group>"; };
+		AB5D138E134C5B0500D33C2D /* CMKScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKScroller.m; sourceTree = "<group>"; };
+		AB5D138F134C5B0500D33C2D /* CMKScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKScroller.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5D1368134C5ACC00D33C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5D1360134C5ACB00D33C2D = {
+			isa = PBXGroup;
+			children = (
+				AB5D1375134C5ACC00D33C2D /* Lion Scrollbar */,
+				AB5D136E134C5ACC00D33C2D /* Frameworks */,
+				AB5D136C134C5ACC00D33C2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5D136C134C5ACC00D33C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D136B134C5ACC00D33C2D /* Lion Scrollbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5D136E134C5ACC00D33C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D1371134C5ACC00D33C2D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5D1371134C5ACC00D33C2D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D1372134C5ACC00D33C2D /* AppKit.framework */,
+				AB5D1373134C5ACC00D33C2D /* CoreData.framework */,
+				AB5D1374134C5ACC00D33C2D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB5D1375134C5ACC00D33C2D /* Lion Scrollbar */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D138C134C5B0500D33C2D /* CMKScrollView.h */,
+				AB5D138D134C5B0500D33C2D /* CMKScrollView.m */,
+				AB5D138E134C5B0500D33C2D /* CMKScroller.m */,
+				AB5D138F134C5B0500D33C2D /* CMKScroller.h */,
+				AB5D1381134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.h */,
+				AB5D1382134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.m */,
+				AB5D1384134C5ACC00D33C2D /* MainMenu.xib */,
+				AB5D1376134C5ACC00D33C2D /* Supporting Files */,
+			);
+			path = "Lion Scrollbar";
+			sourceTree = "<group>";
+		};
+		AB5D1376134C5ACC00D33C2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5D1377134C5ACC00D33C2D /* Lion Scrollbar-Info.plist */,
+				AB5D1378134C5ACC00D33C2D /* InfoPlist.strings */,
+				AB5D137B134C5ACC00D33C2D /* Lion Scrollbar-Prefix.pch */,
+				AB5D137C134C5ACC00D33C2D /* main.m */,
+				AB5D137E134C5ACC00D33C2D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5D136A134C5ACC00D33C2D /* Lion Scrollbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5D1389134C5ACC00D33C2D /* Build configuration list for PBXNativeTarget "Lion Scrollbar" */;
+			buildPhases = (
+				AB5D1367134C5ACC00D33C2D /* Sources */,
+				AB5D1368134C5ACC00D33C2D /* Frameworks */,
+				AB5D1369134C5ACC00D33C2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lion Scrollbar";
+			productName = "Lion Scrollbar";
+			productReference = AB5D136B134C5ACC00D33C2D /* Lion Scrollbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5D1362134C5ACB00D33C2D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB5D1365134C5ACB00D33C2D /* Build configuration list for PBXProject "Lion Scrollbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB5D1360134C5ACB00D33C2D;
+			productRefGroup = AB5D136C134C5ACC00D33C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5D136A134C5ACC00D33C2D /* Lion Scrollbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5D1369134C5ACC00D33C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5D137A134C5ACC00D33C2D /* InfoPlist.strings in Resources */,
+				AB5D1380134C5ACC00D33C2D /* Credits.rtf in Resources */,
+				AB5D1386134C5ACC00D33C2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5D1367134C5ACC00D33C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5D137D134C5ACC00D33C2D /* main.m in Sources */,
+				AB5D1383134C5ACC00D33C2D /* Lion_ScrollbarAppDelegate.m in Sources */,
+				AB5D1390134C5B0500D33C2D /* CMKScrollView.m in Sources */,
+				AB5D1391134C5B0500D33C2D /* CMKScroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB5D1378134C5ACC00D33C2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5D1379134C5ACC00D33C2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB5D137E134C5ACC00D33C2D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5D137F134C5ACC00D33C2D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AB5D1384134C5ACC00D33C2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5D1385134C5ACC00D33C2D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5D1387134C5ACC00D33C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB5D1388134C5ACC00D33C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB5D138A134C5ACC00D33C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lion Scrollbar/Lion Scrollbar-Prefix.pch";
+				INFOPLIST_FILE = "Lion Scrollbar/Lion Scrollbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB5D138B134C5ACC00D33C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lion Scrollbar/Lion Scrollbar-Prefix.pch";
+				INFOPLIST_FILE = "Lion Scrollbar/Lion Scrollbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5D1365134C5ACB00D33C2D /* Build configuration list for PBXProject "Lion Scrollbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5D1387134C5ACC00D33C2D /* Debug */,
+				AB5D1388134C5ACC00D33C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5D1389134C5ACC00D33C2D /* Build configuration list for PBXNativeTarget "Lion Scrollbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5D138A134C5ACC00D33C2D /* Debug */,
+				AB5D138B134C5ACC00D33C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5D1362134C5ACB00D33C2D /* Project object */;
+}

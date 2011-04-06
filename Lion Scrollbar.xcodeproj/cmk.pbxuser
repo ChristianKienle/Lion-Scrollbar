@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	AB4AAE48134C77CB00D0748C /* Lion Scrollbar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Lion Scrollbar";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	AB4AAE51134C77D200D0748C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	AB4AAE52134C77D200D0748C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	AB5D1362134C5ACB00D33C2D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = AB4AAE48134C77CB00D0748C /* Lion Scrollbar */;
+		activeTarget = AB5D136A134C5ACC00D33C2D /* Lion Scrollbar */;
+		codeSenseManager = AB4AAE52134C77D200D0748C /* Code sense */;
+		executables = (
+			AB4AAE48134C77CB00D0748C /* Lion Scrollbar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323778507;
+			PBXWorkspaceStateSaveDate = 323778507;
+		};
+		sourceControlManager = AB4AAE51134C77D200D0748C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AB5D136A134C5ACC00D33C2D /* Lion Scrollbar */ = {
+		activeExec = 0;
+		executables = (
+			AB4AAE48134C77CB00D0748C /* Lion Scrollbar */,
+		);
+	};
+}
