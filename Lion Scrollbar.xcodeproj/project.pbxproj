@@ -14,6 +14,8 @@
 		AB5D1386134C5ACC00D33C2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5D1384134C5ACC00D33C2D /* MainMenu.xib */; };
 		AB5D1390134C5B0500D33C2D /* CMKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D138D134C5B0500D33C2D /* CMKScrollView.m */; };
 		AB5D1391134C5B0500D33C2D /* CMKScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D138E134C5B0500D33C2D /* CMKScroller.m */; };
+		ABB903D61350394200E25DFA /* README in Resources */ = {isa = PBXBuildFile; fileRef = ABB903D51350394200E25DFA /* README */; };
+		ABB903D81350398B00E25DFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB903D71350398B00E25DFA /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		AB5D138D134C5B0500D33C2D /* CMKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKScrollView.m; sourceTree = "<group>"; };
 		AB5D138E134C5B0500D33C2D /* CMKScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKScroller.m; sourceTree = "<group>"; };
 		AB5D138F134C5B0500D33C2D /* CMKScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKScroller.h; sourceTree = "<group>"; };
+		ABB903D51350394200E25DFA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		ABB903D71350398B00E25DFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB903D81350398B00E25DFA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,8 @@
 		AB5D1360134C5ACB00D33C2D = {
 			isa = PBXGroup;
 			children = (
+				ABB903D71350398B00E25DFA /* Cocoa.framework */,
+				ABB903D51350394200E25DFA /* README */,
 				AB5D1375134C5ACC00D33C2D /* Lion Scrollbar */,
 				AB5D136E134C5ACC00D33C2D /* Frameworks */,
 				AB5D136C134C5ACC00D33C2D /* Products */,
@@ -135,6 +142,7 @@
 			isa = PBXProject;
 			buildConfigurationList = AB5D1365134C5ACB00D33C2D /* Build configuration list for PBXProject "Lion Scrollbar" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -157,6 +165,7 @@
 				AB5D137A134C5ACC00D33C2D /* InfoPlist.strings in Resources */,
 				AB5D1380134C5ACC00D33C2D /* Credits.rtf in Resources */,
 				AB5D1386134C5ACC00D33C2D /* MainMenu.xib in Resources */,
+				ABB903D61350394200E25DFA /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
