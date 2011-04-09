@@ -6,6 +6,3 @@ This repository brings the new Lion scroll bars to Snow Leopard (OS X 10.6). The
 You can use the Lion Scroll View on a per scroll view basis. Simply select the scroll view in Interface Builder/Xcode and change the class from NSScrollView to CMKScrollView. Do the same with the scrollers embedded in the scroll view. Done.
 
 The Xcode project contains an example application.
-
-
-d
